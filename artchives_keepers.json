@@ -1,0 +1,48 @@
+{
+  "head" : {
+    "vars" : [ "keeper" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "keeper" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q23687322"
+      }
+    }, {
+      "keeper" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q339759"
+      }
+    }, {
+      "keeper" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q872398"
+      }
+    }, {
+      "keeper" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q672416"
+      }
+    }, {
+      "keeper" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11203476"
+      }
+    }, {
+      "keeper" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1634770"
+      }
+    }, {
+      "keeper" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q209344"
+      }
+    }, {
+      "keeper" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q108323065"
+      }
+    } ]
+  }
+}
