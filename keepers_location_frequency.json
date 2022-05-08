@@ -1,0 +1,104 @@
+{
+  "Rome": {
+    "frequency": 14,
+    "keepers": [
+      "Archivio privato a Roma",
+      "Archivio di Stato di Roma",
+      "Biblioteca di archeologia e storia dell'arte",
+      "Central Archives of the State",
+      "Lincean Academy",
+      "Galleria Nazionale d'Arte Moderna e Contemporanea",
+      "Centro studi per la storia dell'architettura. Casa dei Crescenzi, Roma (RM)",
+      "Tor Vergata University of Rome",
+      "Museo Mario Praz",
+      "Istituto Nazionale di Archeologia e Storia dell\u2019Arte (INASA)",
+      "Biblioteca Nazionale Centrale di Roma",
+      "Universit\u00e0 degli Studi di Roma \"La Sapienza\"",
+      "Archivio Marisa Volpi",
+      "Fondazione Bruno Zevi"
+    ]
+  },
+  "Florence": {
+    "frequency": 12,
+    "keepers": [
+      "Biblioteca Medicea Laurenziana",
+      "Museo Nazionale Alinari della Fotografia",
+      "National Central Library of Florence",
+      "University of Florence",
+      "Fondazione Memofonte",
+      "Biblioteca degli Uffizi di Firenze",
+      "Gabinetto scientifico letterario G. P. Vieusseux. Archivio contemporaneo Alessandro Bonsanti, Firenze (FI)",
+      "Biblioteca Marucelliana",
+      "Fondazione di studi di storia dell'arte Roberto Longhi",
+      "Centro di documentazione della Soprintendenza speciale per il Polo museale Fiorentino",
+      "Biblioteca dell'Istituto Nazionale di Studi sul Rinascimento",
+      "Archivio contemporaneo Alessandro Bonsanti"
+    ]
+  },
+  "Milan": {
+    "frequency": 8,
+    "keepers": [
+      "Societ\u00e0 Storica Lombarda",
+      "Lombard Institute Academy of Science and Letters",
+      "Ambrosian Library",
+      "University of Milan",
+      "BEIC Digital Library",
+      "Ente \"Raccolta vinciana\"",
+      "Istituto Lombardo Accademia di Scienze e Lettere",
+      "Comune di Milano. Archivio civico, Milano (MI)"
+    ]
+  },
+  "Bologna": {
+    "frequency": 4,
+    "keepers": [
+      "Biblioteca comunale dell'Archiginnasio",
+      "Biblioteca dell'Archiginnasio",
+      "Fondazione Federico Zeri",
+      "Universit\u00e0 di Bologna"
+    ]
+  },
+  "Siena": {
+    "frequency": 4,
+    "keepers": [
+      "State Archives of Siena",
+      "University of Siena",
+      "Biblioteca comunale degli Intronati ",
+      "Biblioteca comunale degli Intronati"
+    ]
+  },
+  "Vatican City": { "frequency": 2, "keepers": ["Archivi Vaticani", "Musei Vaticani"] },
+  "Naples": {
+    "frequency": 2,
+    "keepers": ["Fondazione \"Biblioteca Benedetto Croce\"", "University of Naples Federico II"]
+  },
+  "Lucca": { "frequency": 2, "keepers": ["State Archives of Lucca", "Biblioteca statale di Lucca"] },
+  "Arezzo": { "frequency": 1, "keepers": ["Casa museo Vasari, Arezzo (AR)"] },
+  "Spoleto": { "frequency": 1, "keepers": ["Sezione di Archivio di Stato di Spoleto"] },
+  "Ripatransone": { "frequency": 1, "keepers": ["Comune di Ripatransone, Ripatransone (AP)"] },
+  "Rovereto": { "frequency": 1, "keepers": ["Museum of Modern and Contemporary Art of Trento and Rovereto"] },
+  "Terni": { "frequency": 1, "keepers": ["Archivio di Stato di Terni"] },
+  "Perugia": { "frequency": 1, "keepers": ["Fondazione Cassa di Risparmio di Perugia"] },
+  "Treviso": { "frequency": 1, "keepers": ["Fondazione Benetton"] },
+  "Turin": { "frequency": 1, "keepers": ["Archivio di Stato di Torino"] },
+  "Udine": { "frequency": 1, "keepers": ["University of Udine"] },
+  "Varese": { "frequency": 1, "keepers": ["Comune di Varese. Biblioteca civica, Varese (VA)"] },
+  "Venice": { "frequency": 1, "keepers": ["Biblioteca Nazionale Marciana"] },
+  "Verona": { "frequency": 1, "keepers": ["Castelvecchio Museum"] },
+  "Pisa": { "frequency": 1, "keepers": ["Scuola Normale Superiore"] },
+  "New York City": { "frequency": 1, "keepers": ["JSTOR"] },
+  "Paris": { "frequency": 1, "keepers": ["Biblioth\u00e8que nationale de France"] },
+  "Palermo": { "frequency": 1, "keepers": ["Comune di Palermo"] },
+  "Meleto Valdarno": { "frequency": 1, "keepers": ["Archivio privato di Meleto"] },
+  "Mantua": { "frequency": 1, "keepers": ["National Archives Mantua"] },
+  "Manhattan": { "frequency": 1, "keepers": ["Metropolitan Museum of Art"] },
+  "Madrid": { "frequency": 1, "keepers": ["Museo Nacional Centro de Arte Reina Sof\u00eda"] },
+  "Los Angeles": { "frequency": 1, "keepers": ["Getty Research Institute"] },
+  "Lombardy": { "frequency": 1, "keepers": ["Lombardia Beni Culturali"] },
+  "Lamporecchio": { "frequency": 1, "keepers": ["Nuova Fondazione Rossana e Carlo Pedretti"] },
+  "Kansas City": { "frequency": 1, "keepers": ["The Nelson-Atkins Museum of Art"] },
+  "Heidelberg": { "frequency": 1, "keepers": ["University Library Heidelberg"] },
+  "Colbordolo": { "frequency": 1, "keepers": ["El Paternal Mio Nido"] },
+  "Camaiore": { "frequency": 1, "keepers": ["Camaiore Religious Art Museum"] },
+  "Calcata": { "frequency": 1, "keepers": ["Archivio privato di Calcata"] },
+  "Volterra": { "frequency": 1, "keepers": ["Biblioteca Guarnacci (Volterra) "] }
+}
