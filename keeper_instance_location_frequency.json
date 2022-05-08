@@ -1,0 +1,150 @@
+{
+  "Palermo": [["Q166118", "archive"]],
+  "Pisa": [["Q3953379", "superior graduate school in Italy"]],
+  "Florence": [
+    ["Q17431399", "national museum"],
+    ["Q3918", "university"],
+    ["Q94701721", "Tuscan museum of regional importance"],
+    ["Q33506", "museum"],
+    ["Q11834910", "state public library"],
+    ["Q684740", "real property"],
+    ["Q11422631", "United Nations Depository Library"],
+    ["Q166118", "archive"],
+    ["Q7075", "library"],
+    ["Q157031", "foundation"],
+    ["Q22806", "national library"]
+  ],
+  "Bologna": [
+    ["Q28564", "public library"],
+    ["Q45400320", "open-access publisher"],
+    ["Q875538", "public university"],
+    ["Q31855", "research institute"],
+    ["Q166118", "archive"],
+    ["Q7075", "library"]
+  ],
+  "Lucca": [
+    ["Q17620767", "state archive (Italy)"],
+    ["Q7075", "library"],
+    ["Q11834910", "state public library"]
+  ],
+  "Rome": [
+    ["Q17431399", "national museum"],
+    ["Q2122214", "national archives"],
+    ["Q17620767", "state archive (Italy)"],
+    ["Q1966910", "national academy"],
+    ["Q207694", "art museum"],
+    ["Q3918", "university"],
+    ["Q28564", "public library"],
+    ["Q414147", "academy of sciences"],
+    ["Q1329623", "cultural center"],
+    ["Q33506", "museum"],
+    ["Q11834910", "state public library"],
+    ["Q875538", "public university"],
+    ["Q684740", "real property"],
+    ["Q31855", "research institute"],
+    ["Q166118", "archive"],
+    ["Q22806", "national library"]
+  ],
+  "Siena": [
+    ["Q45400320", "open-access publisher"],
+    ["Q17620767", "state archive (Italy)"],
+    ["Q28564", "public library"],
+    ["Q3918", "university"]
+  ],
+  "Milan": [
+    ["Q3918", "university"],
+    ["Q28564", "public library"],
+    ["Q414147", "academy of sciences"],
+    ["Q45400320", "open-access publisher"],
+    ["Q35127", "website"],
+    ["Q3152824", "cultural institution"],
+    ["Q3604008", "Accademia delle lettere"],
+    ["Q43229", "organization"],
+    ["Q2352616", "catalogue"],
+    ["Q212805", "digital library"],
+    ["Q166118", "archive"],
+    ["Q7075", "library"]
+  ],
+  "Los Angeles": [
+    ["Q43229", "organization"],
+    ["Q31855", "research institute"]
+  ],
+  "Paris": [["Q22806", "national library"]],
+  "Heidelberg": [
+    ["Q45400320", "open-access publisher"],
+    ["Q1438125", "scientific collection"],
+    ["Q856234", "academic library"]
+  ],
+  "Mantua": [["Q17620767", "state archive (Italy)"]],
+  "Manhattan": [["Q207694", "art museum"]],
+  "Treviso": [],
+  "Ripatransone": [["Q166118", "archive"]],
+  "Naples": [
+    ["Q45400320", "open-access publisher"],
+    ["Q157031", "foundation"],
+    ["Q3918", "university"]
+  ],
+  "Lombardy": [
+    ["Q43229", "organization"],
+    ["Q7094076", "online database"],
+    ["Q186165", "web portal"]
+  ],
+  "Kansas City": [["Q207694", "art museum"]],
+  "New York City": [
+    ["Q35127", "website"],
+    ["Q43229", "organization"],
+    ["Q212805", "digital library"]
+  ],
+  "Madrid": [
+    ["Q17431399", "national museum"],
+    ["Q64578911", "former hospital"],
+    ["Q207694", "art museum"],
+    ["Q4989906", "monument"]
+  ],
+  "Venice": [
+    ["Q856584", "library building"],
+    ["Q11834910", "state public library"]
+  ],
+  "Volterra": [
+    ["Q7075", "library"],
+    ["Q3621673", "historical archive"]
+  ],
+  "Varese": [
+    ["Q2326815", "municipal library"],
+    ["Q166118", "archive"]
+  ],
+  "Terni": [["Q17620767", "state archive (Italy)"]],
+  "Turin": [["Q17620767", "state archive (Italy)"]],
+  "Verona": [
+    ["Q33506", "museum"],
+    ["Q207694", "art museum"]
+  ],
+  "Perugia": [
+    ["Q22687", "bank"],
+    ["Q6881511", "enterprise"],
+    ["Q4830453", "business"]
+  ],
+  "Rovereto": [
+    ["Q207694", "art museum"],
+    ["Q1329623", "cultural center"]
+  ],
+  "Udine": [
+    ["Q45400320", "open-access publisher"],
+    ["Q2085381", "publisher"],
+    ["Q3918", "university"]
+  ],
+  "null": [],
+  "Lamporecchio": [],
+  "Spoleto": [["Q44796387", "state archives section"]],
+  "Calcata": [],
+  "Camaiore": [["Q207694", "art museum"]],
+  "Meleto Valdarno": [],
+  "Colbordolo": [["Q1329623", "cultural center"]],
+  "Arezzo": [["Q166118", "archive"]],
+  "Vatican City": [
+    ["Q17431399", "national museum"],
+    ["Q2122214", "national archives"],
+    ["Q207694", "art museum"],
+    ["Q2877653", "church archive"]
+  ]
+}
