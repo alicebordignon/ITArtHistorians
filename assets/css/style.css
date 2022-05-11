@@ -554,7 +554,8 @@ section {
 #facts .counters span {
   font-size: 48px;
   display: block;
-  color: black;
+  color: #fff;
+  -webkit-text-stroke: 3px #067db7;
 }
 #facts .counters p {
   padding: 0;
@@ -595,6 +596,7 @@ section {
   height: 72px;
   background: #067db7;
 }
+
 #services .icon a {
   display: inline-block;
 }
