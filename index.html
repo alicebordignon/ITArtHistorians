@@ -42,7 +42,7 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div id="logo">
-        <h1><a href="index.html">Logo</a></h1>
+        <h1><a href="index.html">Geohistorians</a></h1>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -89,7 +89,7 @@
         </div>
         <div class="row counters justify-content-md-center">
 
-          <div class="col-lg-2 col-6 text-center">
+          <div class="col-lg-2 col-6 text-center" id="historians">
             <span data-purecounter-start="0" data-purecounter-end="122" data-purecounter-duration="1" class="purecounter"></span>
             <p>Historians</p>
           </div>
@@ -125,7 +125,7 @@
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">About</h2>
+            <h3 class="title" style="color: #032554;">About</h3>
             <p><b>Geohistorians proposes an analysis on art historians and the keepers that preserve their collections.</b>
               Our data sample is composed by the <b>Italian art historians</b> recorded in <a href="https://arthistorians.info/explore">Dictionary of Art Historians</a> and <a href="http://artchives.fondazionezeri.unibo.it/">ArtChives</a>.</br>
               The Dictionary of Art Historians is a free, privately funded biographical dictionary of historians of western art written and maintained by scholars, while ArtChives
@@ -133,7 +133,7 @@
               Finally, we integrated the extracted information through <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>, one of the most famous collaborative and open source databases.<br>
               You can find the complete workflow and analysis on our <b>Jupyter Notebook</b>.
             </p>
-            <h2 class="title">The workflow</h2>
+            <h2 class="title" style="color: #032554;">The workflow</h2>
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <ul>
                 <li class="description">Data cleaning and access</li>
@@ -154,53 +154,32 @@
     <section id="services">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h3 class="section-title">Research questions</h3>
-          <p class="section-description">Queries divise per macrostrutture: quelle che analizzano il database, quelle che mettono in relazione keeper e historian, quelle di analisi temporale...</p>
+          <h3 class="section-title">Queries</h3>
+          <p class="section-description">We divided our queries into three macro-sections:</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="box">
-              <div class="icon"><a href=""><i class="bi bi-briefcase"></i></a></div>
-              <h4 class="title"><a href="">Primo blocco tematico: queries che riguardano analisi database</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <div class="box-1">
+              <div class="icon-1" id="macro3"><a href=""><i class="bi bi-binoculars"></i></a></div>
+              <h4 class="title"><a href="">Database overview</a></h4>
+              <p class="description">We investigated our database through some queries, obtaining some descriptive data as a starting point of our analysis.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="box">
-              <div class="icon"><a href=""><i class="bi bi-card-checklist"></i></a></div>
-              <h4 class="title"><a href="">Data analysis</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <div class="box-2">
+              <div class="icon-2" id="macro2"><a href=""><i class="bi bi-bar-chart"></i></a></div>
+              <h4 class="title"><a href="">Historians and keepers</a></h4>
+              <p class="description">Then, We find out some queries to analyse the relationship between our historians and the keepers that preserve their collections.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="box">
-              <div class="icon"><a href=""><i class="bi bi-bar-chart"></i></a></div>
-              <h4 class="title"><a href="">....</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <div class="box-3">
+              <div class="icon-3" id="macro1"><a href=""><i class="bi bi-calendar-date"></i></a></div>
+              <h4 class="title"><a href="">Keepers instances and temporal analysis</a></h4>
+              <p class="description">Finally, we took into consideration the type of keepers and the timespan of historians' lifes.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="box">
-              <div class="icon 2"><a href=""><i class="bi bi-binoculars"></i></a></div>
-              <h4 class="title"><a href="">...</a></h4>
-              <p class="description">Cliccandoci rimanda direttamente al grafo</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="box">
-              <div class="icon 2"><a href=""><i class="bi bi-binoculars"></i></a></div>
-              <h4 class="title"><a href="">...</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-            <div class="box">
-              <div class="icon 2"><a href=""><i class="bi bi-binoculars"></i></a></div>
-              <h4 class="title"><a href="">...</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div>
 
         </div>
       </div>
@@ -211,13 +190,19 @@
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h3 class="section-title">First macro area grafici</h3>
-          <p class="section-description">Se riguarda analisi database interessante fare una riflessione critica</p>
+          <h3 class="section-title">Database overview</h3>
+          <p> Spiegazione </p>
+            <div class="infogram-embed" data-id="7b779f81-75b5-448b-8d0b-87d871d1c332" data-type="interactive" data-title="Overral view of the places"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/7b779f81-75b5-448b-8d0b-87d871d1c332" style="color:#989898!important;text-decoration:none!important;" target="_blank">Overral view of the places</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
+            </div>
+            <div class="infogram-embed" data-id="2c042005-cc98-43ee-ac25-0816d7917eac" data-type="interactive" data-title="Most frequent birth places"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/2c042005-cc98-43ee-ac25-0816d7917eac" style="color:#989898!important;text-decoration:none!important;" target="_blank">Most frequent birth places</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
+           </div>
+           <div class="infogram-embed" data-id="89b262ef-f979-4c39-85af-86d251a3780c" data-type="interactive" data-title="Most frequent death places"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/89b262ef-f979-4c39-85af-86d251a3780c" style="color:#989898!important;text-decoration:none!important;" target="_blank">Most frequent death places</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
+           </div>
+           <div class="infogram-embed" data-id="cfe10958-595d-435c-9b1e-344ecea96652" data-type="interactive" data-title="Where were the historians born?"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/cfe10958-595d-435c-9b1e-344ecea96652" style="color:#989898!important;text-decoration:none!important;" target="_blank">Where were the historians born?</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
+           </div>
+
         </div>
-
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <p>Immagini o topics</p>
 
         </div>
 
@@ -229,8 +214,16 @@
     <section id="secondmacro" class="portfolio">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h3 class="section-title">Second macro area grafici</h3>
+          <h3 class="section-title">Keepers and historians</h3>
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <div class="infogram-embed" data-id="548f0c74-c453-485e-8dd6-302f68cdd4ed" data-type="interactive" data-title="Most frequent birth places of historians born in the same place of the keeepers"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/548f0c74-c453-485e-8dd6-302f68cdd4ed" style="color:#989898!important;text-decoration:none!important;" target="_blank">Most frequent birth places of historians born in the same place of the keeepers</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
+          </div>
+          <div class="infogram-embed" data-id="e275c0e2-d5b9-44d9-aeed-2f7ca61bda8b" data-type="interactive" data-title="Number of historians conserved in Milan, Florence and Rome that are dead, born and neither born and dead in the place"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/e275c0e2-d5b9-44d9-aeed-2f7ca61bda8b" style="color:#989898!important;text-decoration:none!important;" target="_blank">Number of historians conserved in Milan, Florence and Rome that are dead, born and neither born and dead in the place</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
+          </div>
+          <div class="infogram-embed" data-id="3910bf1f-9bf7-4a4c-92b5-a172f62b3577" data-type="interactive" data-title="Number of historians neither born or dead in Milan that are conserved by Milan-based keepers"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/3910bf1f-9bf7-4a4c-92b5-a172f62b3577" style="color:#989898!important;text-decoration:none!important;" target="_blank">Number of historians neither born or dead in Milan that are conserved by Milan-based keepers</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
+          </div>
+
+
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
@@ -246,9 +239,11 @@
     <section id="thirdmacro" class="portfolio">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h3 class="section-title">Second macro area grafici</h3>
+          <h3 class="section-title">Keepers instances and temporal analysis</h3>
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+
         </div>
+
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
@@ -260,7 +255,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="secondmacro" class="portfolio">
+    <section id="conclusioni" class="portfolio">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h3 class="section-title">Conclusioni</h3>
