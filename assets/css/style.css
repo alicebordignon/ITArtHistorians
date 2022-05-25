@@ -364,8 +364,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #067db7;
-  -webkit-text-stroke: 2px white;
+  color: white;
+  -webkit-text-stroke: 2px #067db7;
 
 }
 @media (max-width: 768px) {
@@ -397,13 +397,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 1px solid white;
+  border: 2px solid #067db7;
   color: #fff;
   background: #067db7;
 }
 #hero .btn-get-started:hover {
   background: #067db7;
-  border: 2px solid #067db7;
+  border: 2px solid white;
 }
 
 /*--------------------------------------------------------------
@@ -568,7 +568,7 @@ section {
   font-size: 48px;
   display: block;
   color: #fff;
-  -webkit-text-stroke: 2px #067db7;
+  
 }
 
 #facts .counters p {
