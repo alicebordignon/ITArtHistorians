@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(52, 59, 64, 0.9);
 }
 #header #logo h1 {
-  font-size: 32px;
+  font-size: 25px;
   margin: 0;
   line-height: 1;
   font-family: "Poppins", sans-serif;
@@ -95,7 +95,8 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 #header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
+  color: white;
+  -webkit-text-stroke: 0.5px #067db7;
 }
 #header #logo img {
   padding: 0;
@@ -163,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #067db7;
+  background-color: #ecbeb4;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -363,8 +364,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: white;
-  -webkit-text-stroke: 3px #067db7;
+  color: #067db7;
+  -webkit-text-stroke: 2px white;
 
 }
 @media (max-width: 768px) {
@@ -396,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #067db7;
+  border: 1px solid white;
   color: #fff;
   background: #067db7;
 }
@@ -560,7 +561,7 @@ section {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: #e6f2f7;
+  background: #fff;
   padding: 80px 0 60px 0;
 }
 #facts .counters span {
@@ -751,7 +752,7 @@ section {
 }
 
 #portfolio .section-title {
-  color: #067db7;
+  color: #032554;
 }
 #portfolio #portfolio-flters {
   padding: 0;
@@ -834,11 +835,11 @@ section {
 
 
 #secondmacro .section-title {
-    color: #bbc388;
+    color: #032554;
   }
 
 #thirdmacro .section-title {
-  color: #ecbeb4;
+  color: #032554;
 }
 
 
@@ -1066,17 +1067,23 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #343b40;
+  background: #14151c;
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
+  text-align: center;
+}
+
+#footer h3 {
+  color: white;
+  font-size: 15px;
 }
 #footer .copyright {
   text-align: center;
 }
 #footer .credits {
-  padding-top: 10px;
+  padding-top: 8px;
   text-align: center;
   font-size: 13px;
-  color: #ccc;
+  color: #fff;
 }

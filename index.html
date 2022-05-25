@@ -73,13 +73,12 @@
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Welcome to Geohistorians</h1>
-      <h2>A Linked Open Data project about the italian historians and the keepers of their collections</h2>
+      <h2>A <b style="color: #067db7; font-size: 26px;">L</b>inked <b style="color: #c5c9a4; font-size: 26px;">O</b>pen <b style="color: #ecbeb4; font-size: 26px;">D</b>ata project</h2>
       <a href="#about" class="btn-get-started">Get Started</a>
     </div>
   </section><!-- End Hero Section -->
 
   <main id="main">
-
 
     <!-- ======= Facts Section ======= -->
     <section id="facts">
@@ -105,7 +104,7 @@
           </div>
 
           <div class="col-lg-2 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="??" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="73" data-purecounter-duration="1" class="purecounter"></span>
             <p>Keepers</p>
           </div>
 
@@ -126,12 +125,13 @@
 
           <div class="col-lg-6 content order-lg-1 order-2">
             <h3 class="title" style="color: #032554;">About</h3>
+            <p>
             <p><b>Geohistorians proposes an analysis on art historians and the keepers that preserve their collections.</b>
-              Our data sample is composed by the <b>Italian art historians</b> recorded in <a href="https://arthistorians.info/explore">Dictionary of Art Historians</a> and <a href="http://artchives.fondazionezeri.unibo.it/">ArtChives</a>.</br>
+              Our data sample is composed by the <b>Italian art historians</b> recorded in <a href="https://arthistorians.info/explore" target="_blank">Dictionary of Art Historians</a> and <a href="http://artchives.fondazionezeri.unibo.it/" target="_blank">ArtChives</a>.</br>
               The Dictionary of Art Historians is a free, privately funded biographical dictionary of historians of western art written and maintained by scholars, while ArtChives
               collects detailed archival descriptions of notable art historians' collections.</br>
-              Finally, we integrated the extracted information through <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a>, one of the most famous collaborative and open source databases.<br>
-              You can find the complete workflow and analysis on our <b>Jupyter Notebook</b>.
+              Finally, we integrated the extracted information through <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" target="_blank">Wikidata</a>, one of the most famous collaborative and open source databases.<br>
+              You can find the cleaning and analysis phases on our <b><a href="https://github.com/alicebordignon/LODtime/blob/main/00_DoAH_first_cleaning.ipynb" target="_blank">Jupyter Notebook</a></b>.
             </p>
             <h2 class="title" style="color: #032554;">The workflow</h2>
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
@@ -161,21 +161,21 @@
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
             <div class="box-1">
               <div class="icon-1" id="macro3"><a href=""><i class="bi bi-binoculars"></i></a></div>
-              <h4 class="title"><a href="">Database overview</a></h4>
+              <h4 class="title"><a href="#portfolio">Database overview</a></h4>
               <p class="description">We investigated our database through some queries, obtaining some descriptive data as a starting point of our analysis.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
             <div class="box-2">
-              <div class="icon-2" id="macro2"><a href=""><i class="bi bi-bar-chart"></i></a></div>
-              <h4 class="title"><a href="">Historians and keepers</a></h4>
-              <p class="description">Then, We find out some queries to analyse the relationship between our historians and the keepers that preserve their collections.</p>
+              <div class="icon-2" id="macro2"><a href="#secondmacro"><i class="bi bi-bar-chart"></i></a></div>
+              <h4 class="title"><a href="#secondmacro">Historians and keepers</a></h4>
+              <p class="description">Then, we find out some queries to analyse the relationship between our historians and the keepers that preserve their collections.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
             <div class="box-3">
-              <div class="icon-3" id="macro1"><a href=""><i class="bi bi-calendar-date"></i></a></div>
-              <h4 class="title"><a href="">Keepers instances and temporal analysis</a></h4>
+              <div class="icon-3" id="macro1"><a href="#thirdmacro"><i class="bi bi-calendar-date"></i></a></div>
+              <h4 class="title"><a href="#thirdmacro">Keepers instances and temporal analysis</a></h4>
               <p class="description">Finally, we took into consideration the type of keepers and the timespan of historians' lifes.</p>
             </div>
           </div>
@@ -211,7 +211,7 @@
 
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="secondmacro" class="portfolio">
+    <section id="secondmacro" class="secondmacro">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h3 class="section-title">Keepers and historians</h3>
@@ -236,7 +236,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="thirdmacro" class="portfolio">
+    <section id="thirdmacro" class="thirdmacro">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h3 class="section-title">Keepers instances and temporal analysis</h3>
@@ -255,7 +255,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="conclusioni" class="portfolio">
+    <section id="conclusioni" class="conclusioni">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h3 class="section-title">Conclusioni</h3>
@@ -284,10 +284,8 @@
               <h4>Alice Bordignon</h4>
               <span>Data accessa and cleaning, </span>
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.facebook.com/alice.bordignon/"><i class="bi bi-facebook"></i></a>
+                <a href="https://it.linkedin.com/in/alice-bordignon-2337b2189?original_referer=https%3A%2F%2Fwww.google.com%2F"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -298,10 +296,8 @@
               <h4>Federico Cagnola</h4>
               <span>Data access and cleaning, data analysis</span>
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.facebook.com/fede.cagnola"><i class="bi bi-facebook"></i></a>
+                <a href="https://it.linkedin.com/in/fcagnola?trk=people-guest_people_search-card"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -312,10 +308,8 @@
               <h4>Gabriele Fiorenza</h4>
               <span>Data access and cleaning, </span>
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.facebook.com/gabriele.fiorenza.16"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiJ95PHm_v3AhXFSvEDHeo2Co4QFnoECAIQAQ&url=https%3A%2F%2Fit.linkedin.com%2Fin%2Fgabriele-fiorenza-8a6b051b3&usg=AOvVaw2FnBawKt8muhXUx6kwHrCh"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -331,13 +325,17 @@
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
-
+      <h3>A Linked Open Data project - DHDK Master's Degree</h3>
+  <p>Created for the course in <i>"Electronic Publishing and Digital Storytelling",</i> UniBO
+  <br>
+  <br>
+      Hosted by  <a href="https://github.com/alicebordignon/LODtime" class="GitHub" target="_blank"><i class="bi bi-github"></i></a></p>
       </div>
     </div>
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Regna</strong>. All Rights Reserved
+        &copy; Copyright <strong>2022, Geohistorians</strong>
       </div>
       <div class="credits">
         <!--
