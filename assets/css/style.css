@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #666666;
+  color: black;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover, a:active, a:focus {
-  color: #067db7;
+  color: #7eb09b;
   outline: none;
   text-decoration: none;
 }
@@ -434,7 +434,13 @@ section {
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
-  color: #999;
+  color: black;
+}
+
+.blockquote {
+	border-left:0.2rem solid #067db7;
+	font-size:1.1rem;
+	padding-left:1.5rem;
 }
 
 /*--------------------------------------------------------------
@@ -568,7 +574,7 @@ section {
   font-size: 48px;
   display: block;
   color: #fff;
-  
+
 }
 
 #facts .counters p {
