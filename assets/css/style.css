@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #032554;
 }
 
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -414,8 +415,8 @@ section {
 }
 
 .infogram-embed {
-  height: 100%;
-  width: 70%;
+  height: 50%;
+  width: 50%;
   left:0;
   right:0;
   margin-left:auto;
@@ -741,8 +742,9 @@ section {
   color: #ecbeb4;
 }
 
-
-
+#services .section-title {
+  text-align: left;
+}
 #services .title {
   font-weight: 700;
   font-size: 18px;
@@ -767,6 +769,7 @@ section {
 
 #portfolio .section-title {
   color: #032554;
+  padding-bottom: 1em;
 }
 #portfolio #portfolio-flters {
   padding: 0;
@@ -816,7 +819,7 @@ section {
   padding: 15px 20px;
 }
 #portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 12px;
   color: #fff;
   font-weight: 600;
 }
@@ -850,10 +853,12 @@ section {
 
 #secondmacro .section-title {
     color: #032554;
+    padding-bottom: 1em;
   }
 
 #thirdmacro .section-title {
   color: #032554;
+  padding-bottom: 1em;
 }
 
 
