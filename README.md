@@ -9,3 +9,6 @@ The project was realized for the course in Electronic Publishing and Digital Sto
 
 # Licenses 
 The current project reused data under the CC-BY-SA-4.0 and CC0 licenses. The final data obtained from Geohistorians' project are licensed by CC0. 
+
+# Binder 
+Here is the [Binder link](https://mybinder.org/v2/gh/alicebordignon/LODtime/HEAD?labpath=00_DoAH_first_cleaning.ipynb) to our project.
