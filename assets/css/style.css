@@ -11,7 +11,7 @@
 body {
   background: #fff;
   color: black;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -1111,5 +1111,4 @@ section {
   font-size: 18px;
    text-transform: uppercase;
    font-weight: bold;
-   
 }
