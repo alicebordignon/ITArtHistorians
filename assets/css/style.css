@@ -503,6 +503,14 @@ section {
   background-size: contain;
   margin-bottom: 10px;
 }
+
+#workflow {
+  min-height: 600px;
+  background: url(../img/workflow.png) center top no-repeat;
+  background-size: contain;
+  margin-bottom: 10px;
+}
+
 #about .about-container .content {
   background: #fff;
 }
