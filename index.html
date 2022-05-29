@@ -52,11 +52,12 @@
           <li class="dropdown"><a href="#"><span>The project</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#facts">Overview</a></li>
-              <li class="dropdown"><a href="#"><span>Research questions</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a href="#workflow">Worflow</a></li>
+              <li class="dropdown"><a href="#queries"><span>Queries</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">...</a></li>
-                  <li><a href="#services">...</a></li>
-                  <li><a href="#portfolio">...</a></li>
+                  <li><a href="#portfolio">Database overview</a></li>
+                  <li><a href="#secondmacro">Historians and keepers</a></li>
+                  <li><a href="#thirdmacro">Keepers instances and temporal analysis</a></li>
                 </ul>
               </li>
               <li><a href="#conclusions">Conclusions</a></li>
@@ -91,16 +92,6 @@
           <div class="col-lg-2 col-6 text-center" id="historians">
             <span data-purecounter-start="0" data-purecounter-end="122" data-purecounter-duration="1" class="purecounter" style="color: white; -webkit-text-stroke: 2px #067db7;"></span>
             <p>Historians</p>
-          </div>
-
-          <div class="col-lg-2 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter" style="color: white; -webkit-text-stroke: 2px #519e8a;"></span>
-            <p>Females</p>
-          </div>
-
-          <div class="col-lg-2 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="111" data-purecounter-duration="1" class="purecounter" style="color: white; -webkit-text-stroke: 2px #7eb09b;"></span>
-            <p>Males</p>
           </div>
 
           <div class="col-lg-2 col-6 text-center">
@@ -158,7 +149,7 @@
                   finally integrated and commented in the <b>storytelling</b> and <b>web development</b> phase. In the last step, we could make some assumptions limited to our database results.<br>
                   You can find the cleaning and analysis phases on our <b><a href="https://github.com/alicebordignon/LODtime/blob/main/00_DoAH_first_cleaning.ipynb" target="_blank">Jupyter Notebook</a></b>.
               </div>
-              <div class="section-header" style="padding-left: 6em; text-align: left;">
+              <div class="section-header" style="padding-left: 6em; text-align: left;" id="RQ">
                 <h3 class="section-title" style="text-align: left;">Research questions</h3>
                 <p style="padding-left: 1em;">We started our data collection from some questions:</p>
                 <ol style="padding-left: 1em;">
@@ -231,11 +222,12 @@
           <p>It is interesting to notice two different phenomena according to this Barchart: <b>the keeper owning the biggest number of collections is a digital library</b> and <b>the second keeper according to the higher number of collections owned is a foreign keeper</b>.
             <br>These topics will be faced deeper later on. Finally, you can see how <b>the keepers having multiple historians are few</b>: indeed, the dataset mainly consists of <b>many local keepers owning a single historian's collection</b>. As a result, we can argue that <b>the conservation of Italian historians’ collections is fragmented along the entire territory without a strong central institution</b>.</p>
            <div class="infogram-embed" data-id="e5e9dd9f-bd54-448e-b2c2-cff15de3bd1e" data-type="interactive" data-title="Keepers list ordered according to the number of historians they own"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/e5e9dd9f-bd54-448e-b2c2-cff15de3bd1e" style="color:transparent!important;text-decoration:none!important;" target="_blank">Keepers list ordered according to the number of collections they own</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
-
+           <h4 class="chart-section">Female Historians</h4>
+           <p>Even if the results of the following chart was quite predictable, we wanted to underline the <b>crushing difference between males and females</b> in the dataset, also considering its limited extend.
+           </p>
+           <div class="infogram-embed" data-id="a806457c-c7b4-49c3-8e70-2a5f18ccf52c" data-type="interactive" data-title="Females and males"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:8px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/a806457c-c7b4-49c3-8e70-2a5f18ccf52c" style="color: transparent!important;text-decoration:none!important;" target="_blank">Females and males</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
         </div>
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-        </div>
 
       </div>
     </section><!-- End Portfolio Section -->
@@ -305,14 +297,13 @@
 
           <p style="font-size: 20px; color: #fff; -webkit-text-stroke: 2px #c5c9a4;">2: What is the role and the consequences of the digital technologies with respect to the Italian archival world?</p>
             <p>Especially the charts belonging to the <b>Historians and Keepers</b> group of queries are useful to answer to this research question.  Indeed, it seems like, from our data sample, that <b>in Italy there is only a single digital libraries in charge of conserving art historians: BEIC Digital Library</b>, based in Milan. It's really interesting that this single Italian digital library conserves the highest number of historians (10) and that Milan is one of the cities that own more historians even though many of the conserved historians didn't die neither were born there. This is a singularity in our dataset  and it is thanks to the BEIC Digital Library which conserves up to 10 historians.
-            These data lead us to <b>understand the differences between the digital and the physical paradigm</b>. Where there is no digital keeper, the historians' collection are likely conserved in the same physical place where the historian either died or was born so that the physical location plays a crucial role in deciding which keeper will own the collection. This could also be the reason for which many smaller cities in Italy own some keepers: that is, since the historians either were born or died in those smaller cities their collection stayed where they were left.
+            These data lead us to <b>understand the differences between the digital and the physical paradigm</b>. Where there is no digital keeper, the historians' collection are likely conserved in the same physical place where the historian either died or was born so that the physical location plays a crucial role in deciding which keeper will own the collection. This could also be the reason for which many smaller cities in Italy own some keepers: that is, since the historians either were born or died in those smaller cities their collection stayed where they were left.<br>
             The digital paradigm, instead, works differently so as to break the physical limits. Indeed, it does not matter where the historian died or was born because their collection will be conserved by digital keepers which can have physical headquarters elsewhere.
-            Given that, we can conclude that the Italian archival world is more rooted to the physical world, as the data prove.</p>
-
+            Given that, we can suppose that <b>the Italian archival world is more rooted to the physical world</b>, basing ourselves on our dataset.</p>
 
           <p style="font-size: 20px; color: #fff; -webkit-text-stroke: 2px #ecbeb4;">3: Is there a correlation between the kind of the keepers and the historians they conserve?</p>
           <p>
-            Even though further analysis should be done in order to have a sharped comprehension, the last charts seem to suggest that there could be a correlation between the kind of keeper and the historian conserved. Indeed, for instance the libraries seem to prefer historians born in their places, whereas archives seem to prefer historians who died in their places.A possible reason for that can be found in the nature of the keeper itself. It is also worth noticing how the most frequent keepers for historian neither died or born in their places are less conventional types of keepers such as open-access publisher or website. However, as we have said, the data are not enough to perform a sharper analysis and we cannot make any further statement about this topic.</p>
+            Even though <b>further analysis should be done</b> in order to have a sharped comprehension, the last charts seem to suggest that <b>there could be a correlation between the kind of keeper and the historian conserved</b>. Indeed, for instance the libraries seem to prefer historians born in their places, whereas archives seem to prefer historians who died in their places.A possible reason for that can be found in the nature of the keeper itself. It is also worth noticing how the most frequent keepers for historian neither died or born in their places are less conventional types of keepers such as open-access publisher or website. However, as we have said, the data are not enough to perform a sharper analysis and we cannot make any further statement about this topic.</p>
         </div>
 
       </div>
@@ -329,7 +320,7 @@
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="pic"><img src="assets/img/alice.jpg" alt=""></div>
               <h4>Alice Bordignon</h4>
-              <span>Data accessa and cleaning, </span>
+              <span>Data accessa and cleaning, data sense making and digital communication</span>
               <div class="social">
                 <a href="https://www.facebook.com/alice.bordignon/"><i class="bi bi-facebook"></i></a>
                 <a href="https://it.linkedin.com/in/alice-bordignon-2337b2189?original_referer=https%3A%2F%2Fwww.google.com%2F"><i class="bi bi-linkedin"></i></a>
@@ -341,7 +332,7 @@
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="pic"><img src="assets/img/team-2.jpeg" alt=""></div>
               <h4>Federico Cagnola</h4>
-              <span>Data access and cleaning, data analysis</span>
+              <span>Data access and cleaning and data analysis</span>
               <div class="social">
                 <a href="https://www.facebook.com/fede.cagnola"><i class="bi bi-facebook"></i></a>
                 <a href="https://it.linkedin.com/in/fcagnola?trk=people-guest_people_search-card"><i class="bi bi-linkedin"></i></a>
@@ -353,7 +344,7 @@
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="pic"><img src="assets/img/team-3.jpeg" alt=""></div>
               <h4>Gabriele Fiorenza</h4>
-              <span>Data access and cleaning, </span>
+              <span>Data access and cleaning, data visualisation and data sense making</span>
               <div class="social">
                 <a href="https://www.facebook.com/gabriele.fiorenza.16"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiJ95PHm_v3AhXFSvEDHeo2Co4QFnoECAIQAQ&url=https%3A%2F%2Fit.linkedin.com%2Fin%2Fgabriele-fiorenza-8a6b051b3&usg=AOvVaw2FnBawKt8muhXUx6kwHrCh"><i class="bi bi-linkedin"></i></a>
@@ -382,7 +373,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>2022, Geohistorians</strong>
+        &copy; Copyright <strong>2022, ITAH</strong>
       </div>
       <div class="credits">
         <!--
