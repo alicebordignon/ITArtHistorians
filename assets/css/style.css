@@ -1106,3 +1106,10 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+.chart-section {
+  font-size: 18px;
+   text-transform: uppercase;
+   font-weight: bold;
+   
+}
