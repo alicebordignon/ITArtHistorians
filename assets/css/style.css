@@ -423,6 +423,14 @@ section {
   margin-right:auto;
 }
 
+.tableauPlaceholder {
+  height: 60%;
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 2em;
+}
+
 /* Sections Header
 --------------------------------*/
 .section-header .section-title {
@@ -1111,4 +1119,11 @@ section {
   font-size: 18px;
    text-transform: uppercase;
    font-weight: bold;
+}
+
+.section-separator {
+  width: 200px;
+  height: 5px;
+  background-color: #032554;
+  margin: 0 auto;
 }
