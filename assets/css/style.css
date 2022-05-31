@@ -542,14 +542,14 @@ section {
 #about .about-container p:last-child {
   margin-bottom: 0;
 }
-#about .about-container .icon-box {
+.icon-box {
   background: #fff;
   background-size: cover;
   padding: 0 0 30px 0;
 }
-#about .about-container .icon-box .icon {
+.icon-box .icon {
   float: left;
-  background: #fff;
+  background: #067db7;
   width: 64px;
   height: 64px;
   display: flex;
@@ -558,24 +558,25 @@ section {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #067db7;
+  border: 2px solid #fff;
 }
-#about .about-container .icon-box .icon i {
-  color: #067db7;
+.icon-box .icon i {
+  color: #fff;
   font-size: 24px;
   line-height: 0;
 }
-#about .about-container .icon-box .title {
+.icon-box .title {
   margin-left: 80px;
   font-weight: 500;
   margin-bottom: 5px;
   font-size: 18px;
+  font-weight: bold;
 }
-#about .about-container .icon-box .title a {
-  color: #000;
+.icon-box .title a {
+  color: #032554;
 }
-#about .about-container .icon-box .description {
-  margin-left: 0px;
+.icon-box .description {
+  margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
 }
