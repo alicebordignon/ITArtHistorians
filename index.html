@@ -52,7 +52,7 @@
           <li class="dropdown"><a href="#"><span>The project</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#facts">Overview</a></li>
-              <li><a href="#workflow">Worflow</a></li>
+              <li><a href="#workflow">Worflow and Research Questions</a></li>
               <li class="dropdown"><a href="#queries"><span>Queries</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#portfolio">Database overview</a></li>
@@ -61,6 +61,7 @@
                 </ul>
               </li>
               <li><a href="#conclusions">General conclusions</a></li>
+              <li><a href="#calltoaction">So what?</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
@@ -118,13 +119,11 @@
 
           <div class="col-lg-6 content order-lg-1 order-2">
             <h3 class="title" style="color: #032554;">About</h3>
-            <blockquote class="blockquote"><p class="mb-0" style="text-align: justify; font-size:15px;"><i>“History develops, art stands still.”</i></p><br>
-      				<footer class="blockquote-footer"><b>E. M. Forster</b>
+            <blockquote class="blockquote"><p class="mb-0" style="text-align: justify; font-size:15px;"><i>“Research has formalized curiosity. It is poking and prying with a purpose.”</i></p><br>
+      				<footer class="blockquote-footer"><b>Zora Neale Hurston</b>
       				</footer>
       			</blockquote>
-            <p>Many people are giving and gave their lives to study and make art, sometimes becoming someone famous,
-              sometimes keeping to the shadows with the humble purpose of enriching the human knowledge about our past and cultural expressions. In many cases, will be the institutions to recognize their efforts,
-              giving them a space among their collections. But, <b>why them?</b> Why those and not other institutions preserve their collection and funds?
+            <p><b>Where is the intellectual heritage of Italian art historians, and why?</b><br> It was just a matter of curiosity. We found out later that <b>someone is underrepresented, some cities are overlooked, and the national archiving data are a mess</b>.<br> Even if we cannot answer to the "why" question, we tried to show "what".
             </p>
             <p><b>ITAH proposes an analysis on art historians and the keepers that preserve their collections.</b>
               Our data sample is composed by the <b>Italian art historians</b> recorded in <a href="https://arthistorians.info/explore" target="_blank">Dictionary of Art Historians</a> and <a href="http://artchives.fondazionezeri.unibo.it/" target="_blank">ArtChives</a>.</br>
@@ -148,7 +147,7 @@
                 <p>The project workflow was articulated in four different phases:
                   the <b>data cleaning and access</b>, for which some data have been integrated automatically and manually,
                   enriching the original database; the <b>data analysis</b>, where some patterns were found and exposed in the <b>data visualisation</b> process,
-                  finally integrated and presented in the <b>digital communication</b> phase. It is important to clarify that <b>our analysis is limited to our data, so as our conclusions</b>.<br>
+                  finally integrated and presented in the <b>digital communication</b> phase.<br> It is important to clarify that <b>our analysis is limited to our data, so as our conclusions</b>.<br>
                   You can find the cleaning and analysis phases on our <b><a href="https://github.com/alicebordignon/LODtime/blob/main/00_DoAH_first_cleaning.ipynb" target="_blank">Jupyter Notebook</a></b>.
               </div>
               <div class="section-header" data-aos="fade-up" data-aos-delay="100" style="padding-left: 6em; text-align: left;" id="RQ">
@@ -174,14 +173,14 @@
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h3 class="section-title" style="padding-bottom: 1em;" id=queries>Queries</h3>
-          <p style="padding-bottom: 1em;">We divided our queries into three macro-sections to find the answers to our research questions:</p>
+          <p style="padding-bottom: 1em;">We divided our queries into <b>three macro-sections</b> to better manage our analysis:</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
             <div class="box-1">
               <div class="icon-1" id="macro3"><a href="#portfolio"><i class="bi bi-binoculars"></i></a></div>
               <h4 class="title"><a href="#portfolio">Database overview</a></h4>
-              <p class="description">We investigated our database through some queries, obtaining some descriptive data as a starting point of our analysis.</p>
+              <p class="description">We investigated our database through some queries, obtaining some descriptive data as a starting point of our reflections.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6" data-aos="zoom-in">
@@ -195,7 +194,7 @@
             <div class="box-3">
               <div class="icon-3" id="macro1"><a href="#thirdmacro"><i class="bi bi-calendar-date"></i></a></div>
               <h4 class="title"><a href="#thirdmacro">Keepers instances and temporal analysis</a></h4>
-              <p class="description">Finally, we took into consideration the type of keepers and the timespan of historians' lives.</p>
+              <p class="description">Finally, we took into consideration the type of keepers and the timespan of historians' lives, exploring a possible correlation.</p>
             </div>
           </div>
         </div>
@@ -211,27 +210,48 @@
         <div class="section-header">
           <h3 class="section-title" style="text-align: left;">Database overview</h3>
           <h4 class="chart-section" style="color: #067db7;">Keepers' distribution</h4>
-          <p>The following <b>interactive map</b> shows the keeper's distribution over the Italian territory, while the <b>Word cloud</b> shows an overall view of the <b>places</b> based on frequency featured in our dataset. It is worth noticing that the most frequent places are <b>Florence</b>, <b>Milan</b>, <b>Rome</b>, <b>Siena</b> and <b>Bologna</b>. Thus, it seems that <b>cities from the South of Italy are not as relevant as the cities from the North</b> in the conservation of cultural heritage left by Italian art Historians.</p>
+          <p>The following <b>interactive map</b> shows the keeper's distribution over the Italian territory.</p>
+          <ul>
+            <li>The most frequent places are <b>Florence</b>, <b>Milan</b>, <b>Rome</b>, <b>Siena</b> and <b>Bologna</b>.</li>
+            <li>It seems that <b>cities from the South of Italy are not as relevant as the cities from the North</b> in the conservation of cultural heritage left by Italian art Historians.</li>
+          </ul>
           <div class='tableauPlaceholder' id='viz1653892848660' style='position: relative'><noscript><a href='#https://public.tableau.com/shared/N7FYN6QX9?:display_count=n&:origin=viz_share_link'><img alt='Keeper location frequency ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;IT&#47;ITArtHistoriansKeepers&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ITArtHistoriansKeepers&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;IT&#47;ITArtHistoriansKeepers&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object>
           </div><script type='text/javascript'>var divElement = document.getElementById('viz1653892848660');var vizElement = divElement.getElementsByTagName('object')[0];vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);
           </script>
 
 
-          <h4 class="chart-section" style="color: #067db7;">Overral view of the places</h4>
+          <h4 class="chart-section" style="color: #067db7;">Overall view of the places in terms of frequency</h4>
+          <p>The <b>Word cloud</b> shows an <b>overall view</b> of the <b>places</b> based on frequency featured in our dataset.</p>
+          <ul>
+            <li>The most frequent place where historians born is <b>Florence</b></li>
+            <li>The most frequent place where historians died is <b>Rome</b></li>
+            <li>The most frequent place where keepers are located is <b>Milan</b></li>
+          </ul>
             <div class="infogram-embed" data-id="7b779f81-75b5-448b-8d0b-87d871d1c332" data-type="interactive" data-title="Overral view of the places"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="font-family:Arial!important;font-size:8px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0px"><a href="https://infogram.com/7b779f81-75b5-448b-8d0b-87d871d1c332" style="color: transparent!important;text-decoration:none!important;" target="_blank">Overral view of the places</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
             </div>
           <h4 class="chart-section" style="color: #067db7;">Most frequent birth places of Italian Historians</h4>
-          <p>The following two visualisations represent in a different and more intuitive way some of the data collected featured in the previous Word cloud. By looking at them, we can draw the conclusion that <b>our dataset strongly lacks historians born or dead in the south of Italy</b>. </p>
+          <p>The following two visualisations represent in a different and more intuitive way some of the data collected featured in the previous Word cloud.</p>
+          <ul>
+            <li>Considering the first nine places in terms of frequency, <b>no cities of the South Italy are included.</b></li>
+            <li><b>Our dataset</b> strongly <b>lacks historians born or dead in the South of Italy.</b></li>
+          </ul>
             <div class="infogram-embed" data-id="2c042005-cc98-43ee-ac25-0816d7917eac" data-type="interactive" data-title="Most frequent birth places"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:8px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0px"><a href="https://infogram.com/2c042005-cc98-43ee-ac25-0816d7917eac" style="color: transparent!important;text-decoration:none!important;" target="_blank">Most frequent birth places</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
            </div>
            <h4 class="chart-section" style="color: #067db7;">Most frequent death places of Italian Historians</h4>
            <div class="infogram-embed" data-id="89b262ef-f979-4c39-85af-86d251a3780c" data-type="interactive" data-title="Most frequent death places"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/89b262ef-f979-4c39-85af-86d251a3780c" style="color: transparent!important;text-decoration:none!important;" target="_blank">Most frequent death places</a><br><a href="https://infogram.com" style="color: transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
            </div>
-           <h4 class="chart-section" style="color: #067db7;">Keepers list ordered according to the number of historians' collections they own</h4>
-          <p>It is interesting to notice two different phenomena according to this Barchart: <b>the keeper owning the biggest number of collections is a digital library</b> and <b>the second keeper according to the higher number of collections owned is a foreign keeper</b>.
-            <br>These topics will be faced deeper later on. Finally, you can see how <b>the keepers having multiple historians are few</b>: indeed, the dataset mainly consists of <b>many local keepers owning a single historian's collection</b>. As a result, we can argue that <b>the conservation of Italian historians’ collections is fragmented along the entire territory without a strong central institution</b>.</p>
+           <h4 class="chart-section" style="color: #067db7;">Number of historians' collections held by the cultural heritage institutions</h4>
+          <p>It is interesting to notice some different phenomena according to this <b>Barchart</b>:
+            <ul>
+              <li>The keeper owning the biggest number of collections is a <b>digital library</b></li>
+              <li>One of the two second keepers according to the higher number of collections owned is a <b>foreign keeper</b></li>
+              <li>The keepers that preserve multiple historians' collections are few: the dataset mainly consists of <b>many local keepers owning a single historian's collection</b>.</li>
+            </ul>
+
+             <p>While the first two statements will be commented later, as a result of the last one we can argue that <b>the conservation of Italian historians’ collections is fragmented along the entire territory without a strong central institution</b>.</p>
+
            <div class="infogram-embed" data-id="e5e9dd9f-bd54-448e-b2c2-cff15de3bd1e" data-type="interactive" data-title="Keepers list ordered according to the number of historians they own"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/e5e9dd9f-bd54-448e-b2c2-cff15de3bd1e" style="color:transparent!important;text-decoration:none!important;" target="_blank">Keepers list ordered according to the number of collections they own</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
-           <h4 class="chart-section" style="color: #067db7;">Female Historians</h4>
+           <h4 class="chart-section" style="color: #067db7;">Numerical comparison between female art historians and male art historians</h4>
            <p>Even if the results of the following chart was quite predictable, we wanted to underline the <b>crushing difference between males and females</b> in the dataset, also considering its limited extend.
            </p>
            <div class="infogram-embed" data-id="a806457c-c7b4-49c3-8e70-2a5f18ccf52c" data-type="interactive" data-title="Females and males"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:8px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/a806457c-c7b4-49c3-8e70-2a5f18ccf52c" style="color: transparent!important;text-decoration:none!important;" target="_blank">Females and males</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
@@ -247,24 +267,42 @@
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h3 class="section-title" style="text-align: left;">Historians and keepers</h3>
-          <h4 class="chart-section" style="color: #bbc388;">Historians and Keepers relationship from a geographical point of view</h4>
-          <p>The following pie chart shows that <b>the place where a historian died is the more relevant aspect to consider with regard to the keeper's location</b>. This can confirm the idea that the collections were not physically moved and stayed where they were left by historians after dying.</p>
+          <h4 class="chart-section" style="color: #bbc388;">Correlation between historians' birth and death places and keepers locations</h4>
+          <p>The following <b>pie chart</b> shows:
+            <ul>
+              <li>The place <b>where a historian died</b> is the <b>more relevant aspect</b> to consider with regard to the keeper's location.</li>
+              <li>The place <b>where a historian born</b> is the <b>less relevant aspect</b> to consider with regard to the keeper's location.</li>
+            </ul>
+             <p>The first statement could confirm the idea that the collections were not physically moved and stayed where they were left by historians after dying.</p>
           <div class="infogram-embed" style="height: 50%; width: 40%;" data-id="cfe10958-595d-435c-9b1e-344ecea96652" data-type="interactive" data-title="Where were the historians born?"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/cfe10958-595d-435c-9b1e-344ecea96652" style="color:transparent!important;text-decoration:none!important;" target="_blank">Where were the historians born?</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
           </div>
-          <h4 class="chart-section" style="color: #bbc388;">Most frequent birth places of historians born in the same place of the keeepers</h4>
-          <p>The column chart shows that <b>Florence</b> is the place with the <b>higher density ration between historians born in the city and historians actually conserved in the city itself.</b></p>
+          <h4 class="chart-section" style="color: #bbc388;">Most frequent places where birth places of historians and keepers locations match</h4>
+          <p>The <b>column chart</b> shows that:
+            <ul>
+              <li><b>Florence</b> is the place with the <b>higher density ration</b> between historians born in the city and historians's collections actually conserved in the city itself.</li>
+            </ul>
+
+             </p>
           <div class="infogram-embed" data-id="548f0c74-c453-485e-8dd6-302f68cdd4ed" data-type="interactive" data-title="Most frequent birth places of historians born in the same place of the keeepers"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/548f0c74-c453-485e-8dd6-302f68cdd4ed" style="color:transparent!important;text-decoration:none!important;" target="_blank">Most frequent birth places of historians born in the same place of the keeepers</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
           </div>
-          <h4 class="chart-section" style="color: #bbc388;">Number of historians conserved in Milan, Florence and Rome that are dead, born and neither born and dead in the place of the keeper</h4>
-          <p>This line chart takes the <b>most relevant cities</b> revealed by the previous viualisations and explores them deeper:<br>
-             <b>Milan</b> is the city with the highest number of conserved historians neither born or died there, whereas <b>Florence</b> and <b>Rome</b> have different features as they mostly conserve historians either died or born in the city. <br> We can suppose that <b>Milan is the main place where keepers are open to preserve collections regardless the birth place or death place of the historians.</b></p>
+          <h4 class="chart-section" style="color: #bbc388;">Comparison of the number of historians' collections preserved in Milan, Rome and Firenze, where historians born, died or neither</h4>
+          <p>This <b>line chart</b> takes the <b>most relevant cities</b> revealed by the previous viualisations and explores them deeper:<br>
+            <ul>
+              <li><b>Milan</b> is the city with the highest number of conserved historians <b>neither born or died</b> there</li>
+              <li><b>Florence</b> and <b>Rome</b> have different features as they mostly conserve historians <b>either born or died</b> in the city.</li>
+            </ul>
           <div class="infogram-embed" data-id="e275c0e2-d5b9-44d9-aeed-2f7ca61bda8b" data-type="interactive" data-title="Number of historians conserved in Milan, Florence and Rome that are dead, born and neither born and dead in the place"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/e275c0e2-d5b9-44d9-aeed-2f7ca61bda8b" style="color:transparent!important;text-decoration:none!important;" target="_blank">Number of historians conserved in Milan, Florence and Rome that are dead, born and neither born and dead in the place</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
           </div>
           <h4 class="chart-section" style="color: #bbc388;">Number of historians neither born or dead in Milan that are conserved by Milan-based keepers</h4>
-          <p>This chart explains better the previous one by showing which Milan-based keepers conserve historians neither born or died in Milan. Here, the most noticeable result is that <b>the keeper that owns the highest number of historians neither died or born in Milan is the BEIC Digital Library, which is a digital library</b>. This leads us to understand the <b>potential of digital libraries</b> in terms of conserving historians' collections who died or were born in different places, by <b>overcoming the physical limits</b>.</p>
+          <p>This chart explains better the previous one by showing which <b>Milan-based keepers conserve historians neither born or died in Milan</b>.
+            <ul>
+              <li>The keeper that owns the <b>highest number of historians neither died or born in Milan</b> is the <b>BEIC Digital Library</b>.</li>
+            </ul>
+             <p>This leads us to understand the <b>potential of digital libraries</b> in terms of conserving historians' collections who died or were born in different places, by <b>overcoming the physical limits</b>.<br>
+             We can also suppose that <b>Milan</b> is the main place where keepers are open to preserve collections <b>regardless the birth place or death place of the historians.</b></p>
           <div class="infogram-embed" data-id="3910bf1f-9bf7-4a4c-92b5-a172f62b3577" data-type="interactive" data-title="Number of historians neither born or dead in Milan that are conserved by Milan-based keepers"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/3910bf1f-9bf7-4a4c-92b5-a172f62b3577" style="color:transparent!important;text-decoration:none!important;" target="_blank">Number of historians neither born or dead in Milan that are conserved by Milan-based keepers</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a>
           </div>
-          <h4 class="chart-section" style="color: #bbc388;">Keepers owning collections of historians neither born or died in their place</h4>
+          <h4 class="chart-section" style="color: #bbc388;">Locations of keepers owning collections of historians neither born or died there</h4>
           <p>In this column chart you can have a more overall view about the <b>keepers that conserve historians neither born or died in their place where they are conserved</b>. As you can see the <b>predominance of Milan</b> with the BEIC digital library is confirmed.</p>
           <div class="infogram-embed" style="height: 50%; width: 70%;" data-id="e10d5d2f-8351-42e6-8764-f90324381ffe" data-type="interactive" data-title="Keepers owning collections of historians neither born or died in their place"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/e10d5d2f-8351-42e6-8764-f90324381ffe" style="color:transparent!important;text-decoration:none!important;" target="_blank">Keepers owning collections of hisorians neither born or died in their place</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
 
@@ -278,14 +316,21 @@
         <div class="section-header">
           <h3 class="section-title" style="text-align: left;">Keepers instances and temporal analysis</h3>
           <h4 class="chart-section" style="color: #ecbeb4;">Frequency of keepers types</h4>
-          <p>The following chart shows that the <b>most frequent types of keepers are archives, libraries and museums</b>. Since we extracted the information from Wikidata, there are different instances that can be grouped together. Thus, we give to these ones the same color.</p>
+
+          <p>The following chart shows that:</p>
+            <ul>
+              <li>The most frequent types of keepers are <b>archives, libraries and museums</b>.</li>
+            </ul>
+           Since we extracted the information from Wikidata, there are different instances that can be grouped together. Thus, we give to these ones the same color.</p>
           <div class="infogram-embed" data-id="4999eaf6-edad-4212-96db-6c3168fbec64" data-type="interactive" data-title="Frequency of keepers types"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/4999eaf6-edad-4212-96db-6c3168fbec64" style="color:transparent!important;text-decoration:none!important;" target="_blank">Frequency of keepers types</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
-          <h4 class="chart-section" style="color: #ecbeb4;">Number of born historians conserved by the five most frequent types of keepers throughout time</h4>
-          <p>The following charts show from a temporal point of view the role of the 5 most frequent keepers in conserving historians.</p>
+
+
+          <h4 class="chart-section" style="color: #ecbeb4;">Number of historians's collections preserved by the five most frequent types of keepers throughout time (1400-1900)</h4>
+          <p>The following charts show from a <b>temporal point of view</b> the <b>role of the <b>five most frequent type of keepers</b> in conserving historians. Our temporal reference has been the <b>timespan of the historians' lives</b>.</p>
           <div class="infogram-embed" data-id="2e5842db-6215-4043-848c-21445cdc84f4" data-type="interactive" data-title="Number of born historians conserved by the 5 most frequent types of keepers throughout time"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/2e5842db-6215-4043-848c-21445cdc84f4" style="color:transparent!important;text-decoration:none!important;" target="_blank">Number of born historians conserved by the 5 most frequent types of keepers throughout time</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
           <div class="infogram-embed" data-id="e5af08cb-7421-44be-83d8-e66370ab3802" data-type="interactive" data-title="Number of dead historians conserved by the 5 most frequent types of keepers throughout time"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/e5af08cb-7421-44be-83d8-e66370ab3802" style="color:transparent!important;text-decoration:none!important;" target="_blank">Number of dead historians conserved by the 5 most frequent types of keepers throughout time</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
-          <h4 class="chart-section" style="color: #ecbeb4;">Number of historians born in a city and conserved in it</h4>
-          <p>The following pie charts say the five most frequent types of keepers according to the historian's birthplace and deathplace: if they are equal to the keeper’s place or they are totally different. </p>
+          <h4 class="chart-section" style="color: #ecbeb4;">Number of historians for each type of keeper according to his/her birth or death place</h4>
+          <p>The following <b>pie chart</b> shows the five most frequent types of keepers according to the historian's birthplace and deathplace: if they are equal to the keeper’s place or they are totally different. </p>
           <div class="infogram-embed" data-id="fad6eca8-d693-4a31-9be7-71b55903b40c" data-type="interactive" data-title="Number of historians born in a city and conserved in it"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid transparent;margin:0 30px"><a href="https://infogram.com/fad6eca8-d693-4a31-9be7-71b55903b40c" style="color:transparent!important;text-decoration:none!important;" target="_blank">Number of historians born in a city and conserved in it</a><br><a href="https://infogram.com" style="color:transparent!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div>
         </div>
       </div>
@@ -368,10 +413,43 @@
                 </p>
               </div>
             </div>
+
         </div>
 
       </div>
+    </section><!-- End conclusions Section -->
+
+  <div class="section-separator" data-aos="fade-in" data-aos-delay="100" style="margin-top: 1em; margin-bottom:1em;"></div>
+    <!-- ======= so what Section ======= -->
+    <section id="calltoaction" class="calltoaction">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3 class="section-title" style="text-align: left;">So what?</h3>
+          <h4 class="chart-section">Every solution starts from the awareness of the problem</h4>
+          <p>On the basis of the results, we can offer some solutions:</p>
+
+          <ol style="padding-left: 1em;">
+            <li style="font-size: 20px; color: #fff; -webkit-text-stroke: 2px #067db7;">Provide databases that are more representative of Southern Italy art historians and keepers.</li>
+            <li style="font-size: 20px; color: #fff; -webkit-text-stroke: 2px #067db7;">Read more about the topic to understand why the cities of the south are neglected.</li>
+            <p>With regards to Naples, we suggest an article by the Biblioteca Hertziana, titled <a href="https://www.biblhertz.it/2716614/la_storia_negata_risultati_pdf_.pdf">"La storia negata. Napoli nella storiografia artistica"</a>.</p>
+            <li style="font-size: 20px; color: #fff; -webkit-text-stroke: 2px #c5c9a4;">Reinforce the digital archiving service.</li>
+            <li style="font-size: 20px; color: #fff; -webkit-text-stroke: 2px #c5c9a4;">Increase the number of digital libraries for a faster  and centralized search.</li>
+            <li style="font-size: 20px; color: #fff; -webkit-text-stroke: 2px #ecbeb4;">???</li>
+          </ol>
+
+
+
+
+        </div>
+      </div>
     </section><!-- End Portfolio Section -->
+
+
+
+
+
+
+
   <div class="section-separator" data-aos="fade-in" data-aos-delay="100" style="margin-top: 1em; margin-bottom:1em;"></div>
     <section id="team">
       <div class="container" data-aos="fade-up">
