@@ -198,13 +198,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #666666;
+  color: #000;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #032554;
+  font-weight: bold;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
