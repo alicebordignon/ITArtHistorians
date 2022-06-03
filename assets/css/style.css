@@ -513,6 +513,12 @@ section {
   margin-bottom: 10px;
 }
 
+.images {
+  min-height: 90%;
+  background: url(../img/map.png) center top no-repeat;
+  background-size: contain;
+}
+
 #workflow {
   min-height: 600px;
   background: url(../img/workflow.png) center top no-repeat;
@@ -1127,4 +1133,15 @@ section {
   height: 5px;
   background-color: #032554;
   margin: 0 auto;
+}
+
+.calltoaction a {
+  color: black;
+  text-decoration: none;
+}
+
+.calltoaction a:hover, a:active, a:focus {
+  color: #7eb09b;
+  outline: none;
+  text-decoration: none;
 }
